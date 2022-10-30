@@ -1,0 +1,102 @@
+.containerForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #0041b1;
+    padding: 2rem;
+    border: 2px solid #FFF;
+    margin: 1rem auto;
+    border-radius: 4px;
+    margin-right: 4rem;
+
+}
+
+form {
+    width: 400px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+section {
+    max-width: 100%;
+    margin: 4rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+label {
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+input {
+    color: #FFF;
+    background-color: transparent;
+    width: 300px;
+    padding: 0.4rem;
+    margin-bottom: 1rem;
+    border: 2px solid #fff;
+    border-radius: 4px;
+}
+
+.containerBtn {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+
+}
+
+button {
+    color: #fff;
+    background-color: #1DD5E5;
+    font-weight: bold;
+    font-size: 0.9rem;
+    border: 2px solid #FFF;
+    width: 200px;
+    border-radius: 4px;
+    padding: 12px 16px;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+.opDestino {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #0041b1;
+    padding: 2rem;
+    border: 2px solid #FFF;
+    margin: 1rem auto;
+    border-radius: 4px;
+    width: 400px;
+    margin-left: -0.01rem;
+}
+
+.select {
+    padding: 1rem;
+    width: 300px;
+    margin-bottom: 1rem auto;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width:930px) {
+    section {
+        display: flex;
+        flex-direction: column;
+    }
+
+}

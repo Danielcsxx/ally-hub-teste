@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+
+.container {
+    font-family: 'Dancing Script', cursive;
+    color: aliceblue;
+    font-size: 1.2rem;
+    margin: 0;
+    height: 4rem;
+    padding: 4rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+
+.logo {
+    color: #0000FF;
+    font-size: 3rem;
+}
